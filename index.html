@@ -49,7 +49,7 @@
           <div>
             <h1 id="typewriter"></h1>
             <p>Me chamo Henrique!</p>
-            <p style="line-height: 2; font-weight: 200;">
+            <p style="line-height: 2; font-weight: 200">
               Apaixonado por uma vida de estudos e trabalho, além de um
               apreciador da cultura japonesa e um amante de café (sem açúcar).
             </p>
@@ -89,18 +89,19 @@
       </main>
 
       <section id="about">
-        <h1>Oi!</h1>
+        <h1>Um pouco sobre mim!</h1>
 
         <div class="description">
           <p>
-            Sou o Henrique Maximo, 20 anos, de São Paulo. Amo programação e
-            estudo constantemente, adepto de boas práticas e metodologias ágeis.
-            Minhas habilidades incluem JavaScript, Node.js, PHP, HTML, Laravel,
-            CSS, ReactJS e MySQL. No GitHub, compartilho projetos que refletem
-            meu aprendizado. Acredito que o código vai além: envolve compreender
-            usuários e criar soluções significativas. Estou sempre pronto para
-            desafios e crescimento constante. 🚀 Além disso, tenho uma paixão
-            especial pelo Japão.
+            Me chamo Henrique Maximo, tenho <span class="age"></span> anos, de
+            São Paulo. Gosto de programar e meu passa tempo é estudar, adepto de
+            boas práticas e metodologias ágeis. Minhas habilidades incluem
+            JavaScript (ecossistema), NodeJS, PHP, Laravel, CSS, ReactJS e
+            MySQL. No GitHub, estabeleço projetos que refletem meu aprendizado.
+            Acredito que o código vai além: envolve compreender usuários e criar
+            soluções significativas. No estilo mais clichê, digo que estou
+            sempre pronto para desafios e crescimento constante. 🚀 Além disso,
+            tenho uma paixão especial pelo Japão.
           </p>
 
           <table>
@@ -111,15 +112,11 @@
               </tr>
               <tr>
                 <th scope="row">Idade:</th>
-                <td>21 (20/08/2003)</td>
+                <td><span class="age"></span> (20/08/2003)</td>
               </tr>
               <tr>
                 <th scope="row">Endereço:</th>
                 <td>Brasil, São Paulo, Embu das Artes</td>
-              </tr>
-              <tr>
-                <th scope="row">Telefone:</th>
-                <td>+55 (11) 93456-2234</td>
               </tr>
               <tr>
                 <th scope="row">Email:</th>
@@ -348,8 +345,12 @@
       </section>
     </div>
 
-    <footer style="margin: 0 auto">
-      <p>Copyright ©2025, todos os direitos reservados.</p>
+    <footer>
+      <p>Desenvolvido com 💖 por Henrique.</p>
+      <p>
+        Copyright <span id="footerCurrentYear"></span>, todos os direitos
+        reservados.
+      </p>
     </footer>
 
     <script src="script.js"></script>
