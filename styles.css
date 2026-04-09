@@ -287,33 +287,36 @@ main section div p {
 }
 
 .description p {
-  /* display: flex; */
   align-items: center;
-  /* flex: 1; */
   font-size: 1.1rem;
   font-weight: 200;
   line-height: 1.6;
 }
 
 .description table {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   border-collapse: collapse;
   width: 100%;
   flex: 1;
-  display: block;
+  /* display: block; */
   overflow-x: auto;
 }
 
 .description table th,
 .description table td {
   padding: 0.8rem 1.5rem;
-  text-align: left;
+  
   border-bottom: 1px solid #ddd;
 }
 
 .description table th {
+  text-align: left;
   font-weight: 600;
   color: var(--color-purple-300);
+}
+
+.description table td {
+  text-align: right;
 }
 
 #work {
